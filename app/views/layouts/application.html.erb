@@ -2,15 +2,15 @@
 <html>
 <head>
   <title>Muse</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
   <link href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet"></link>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"></link>
 </head>
 <body>
 	<header>
-			<div class="wrapper clearfix"></div>
+			<div class="wrapper clearfix">
 				<div id="logo">
 					<%= link_to "Muse", root_path %>
 				</div>
